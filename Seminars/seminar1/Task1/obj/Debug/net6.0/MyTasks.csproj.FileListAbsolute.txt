@@ -1,0 +1,15 @@
+C:\Users\shymk\OneDrive\Рабочий стол\seminar\MyTasks\bin\Debug\net6.0\MyTasks.exe
+C:\Users\shymk\OneDrive\Рабочий стол\seminar\MyTasks\bin\Debug\net6.0\MyTasks.deps.json
+C:\Users\shymk\OneDrive\Рабочий стол\seminar\MyTasks\bin\Debug\net6.0\MyTasks.runtimeconfig.json
+C:\Users\shymk\OneDrive\Рабочий стол\seminar\MyTasks\bin\Debug\net6.0\MyTasks.dll
+C:\Users\shymk\OneDrive\Рабочий стол\seminar\MyTasks\bin\Debug\net6.0\MyTasks.pdb
+C:\Users\shymk\OneDrive\Рабочий стол\seminar\MyTasks\obj\Debug\net6.0\MyTasks.csproj.AssemblyReference.cache
+C:\Users\shymk\OneDrive\Рабочий стол\seminar\MyTasks\obj\Debug\net6.0\MyTasks.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\shymk\OneDrive\Рабочий стол\seminar\MyTasks\obj\Debug\net6.0\MyTasks.AssemblyInfoInputs.cache
+C:\Users\shymk\OneDrive\Рабочий стол\seminar\MyTasks\obj\Debug\net6.0\MyTasks.AssemblyInfo.cs
+C:\Users\shymk\OneDrive\Рабочий стол\seminar\MyTasks\obj\Debug\net6.0\MyTasks.csproj.CoreCompileInputs.cache
+C:\Users\shymk\OneDrive\Рабочий стол\seminar\MyTasks\obj\Debug\net6.0\MyTasks.dll
+C:\Users\shymk\OneDrive\Рабочий стол\seminar\MyTasks\obj\Debug\net6.0\refint\MyTasks.dll
+C:\Users\shymk\OneDrive\Рабочий стол\seminar\MyTasks\obj\Debug\net6.0\MyTasks.pdb
+C:\Users\shymk\OneDrive\Рабочий стол\seminar\MyTasks\obj\Debug\net6.0\MyTasks.genruntimeconfig.cache
+C:\Users\shymk\OneDrive\Рабочий стол\seminar\MyTasks\obj\Debug\net6.0\ref\MyTasks.dll
