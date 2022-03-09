@@ -12,13 +12,13 @@ if (AMonth<0)
       AMonth= AMonth+12;
       AYear--;  
     }
-    int ADay=1-day;
+int ADay=1-day;
 if (ADay<0)
     {
         AMonth--;
        MonthDay(ADay);
     }
-string MonthDay(int ADay)
+int MonthDay(int ADay)
 {
     if ((month == 1) || (month == 3) || (month == 5) || (month == 7) || (month == 8) || (month == 10) || (month == 12))
     {
@@ -37,9 +37,9 @@ string MonthDay(int ADay)
     }
     else 
     {
-        return "Такого месяца не существует";
+        return ADay;
     }
 }
 
-Console.WriteLine(ADay+ AMonth + AYear);
+Console.WriteLine("Ваш возраст на 01.02.2022: " + AYear + " лет, "+AMonth + " месяца(ев), " +  ADay + " дня(ей).");
 
