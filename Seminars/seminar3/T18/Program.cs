@@ -15,7 +15,7 @@ else if (number==3)
     Console.WriteLine("0 > x > - infinity");
     Console.WriteLine("0 > y > - infinity");   
 }
-else if (Number==4)
+else if (number==4)
 {
     Console.WriteLine("0 < x < + infinity");
     Console.WriteLine("0 > y > - infinity");
