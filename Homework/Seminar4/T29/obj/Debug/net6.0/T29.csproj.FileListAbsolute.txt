@@ -1,0 +1,15 @@
+C:\Users\shymk\OneDrive\Рабочий стол\C#\Homework\Seminar4\T29\bin\Debug\net6.0\T29.exe
+C:\Users\shymk\OneDrive\Рабочий стол\C#\Homework\Seminar4\T29\bin\Debug\net6.0\T29.deps.json
+C:\Users\shymk\OneDrive\Рабочий стол\C#\Homework\Seminar4\T29\bin\Debug\net6.0\T29.runtimeconfig.json
+C:\Users\shymk\OneDrive\Рабочий стол\C#\Homework\Seminar4\T29\bin\Debug\net6.0\T29.dll
+C:\Users\shymk\OneDrive\Рабочий стол\C#\Homework\Seminar4\T29\bin\Debug\net6.0\T29.pdb
+C:\Users\shymk\OneDrive\Рабочий стол\C#\Homework\Seminar4\T29\obj\Debug\net6.0\T29.csproj.AssemblyReference.cache
+C:\Users\shymk\OneDrive\Рабочий стол\C#\Homework\Seminar4\T29\obj\Debug\net6.0\T29.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\shymk\OneDrive\Рабочий стол\C#\Homework\Seminar4\T29\obj\Debug\net6.0\T29.AssemblyInfoInputs.cache
+C:\Users\shymk\OneDrive\Рабочий стол\C#\Homework\Seminar4\T29\obj\Debug\net6.0\T29.AssemblyInfo.cs
+C:\Users\shymk\OneDrive\Рабочий стол\C#\Homework\Seminar4\T29\obj\Debug\net6.0\T29.csproj.CoreCompileInputs.cache
+C:\Users\shymk\OneDrive\Рабочий стол\C#\Homework\Seminar4\T29\obj\Debug\net6.0\T29.dll
+C:\Users\shymk\OneDrive\Рабочий стол\C#\Homework\Seminar4\T29\obj\Debug\net6.0\refint\T29.dll
+C:\Users\shymk\OneDrive\Рабочий стол\C#\Homework\Seminar4\T29\obj\Debug\net6.0\T29.pdb
+C:\Users\shymk\OneDrive\Рабочий стол\C#\Homework\Seminar4\T29\obj\Debug\net6.0\T29.genruntimeconfig.cache
+C:\Users\shymk\OneDrive\Рабочий стол\C#\Homework\Seminar4\T29\obj\Debug\net6.0\ref\T29.dll
