@@ -2,16 +2,31 @@
 // и выводит отсортированный по модулю массив.
 
 int[] array = new int[8];
-Random random = new Random();
-for (int i = 0; i < 7;i++)
+FillArray();
+Console.Write("Заданный массив:        ");
+PrintArray();
+BubbleSort();
+Console.Write("Отсортированный массив: ");
+PrintArray();
+
+void FillArray()
+	{
+	Random random = new Random();
+		for (int i = 0; i < 7;i++)
+		{
+    		array[i]=random.Next(-1001,1001);
+		}
+	}
+
+void PrintArray()
 {
-    array[i]=random.Next(-1001,1001);
+    for (int i=0; i< array.Length;i++)
+    {
+        Console.Write(array[i]+ " ");
+    }
+    Console.WriteLine();
 }
-BubbleSort(array);
-for (int i = 0; i < 7;i++)
-{
-    Console.Write(array[i]+ "  ");
-}
+
 void BubbleSort()
 		{
 			for (int i = 0; i < 7; i++)
