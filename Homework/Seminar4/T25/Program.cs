@@ -7,9 +7,10 @@ int B = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine(Degree());
 int Degree ()
 {
+    int c = 1;
 for (int i = 1; i <= B; i ++)
 {
-    A = A*A;
+    c = c*A;
 }
-return A;
+return c;
 }
