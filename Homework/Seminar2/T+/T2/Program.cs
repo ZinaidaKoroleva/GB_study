@@ -6,40 +6,36 @@ int month = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Введите день рождения");
 int day = Convert.ToInt32(Console.ReadLine());
 int AYear = 2022 - year;
-int  AMonth = 2-month;
-if (AMonth<0)
-    {
-      AMonth= AMonth+12;
-      AYear--;  
-    }
-int ADay=1-day;
-if (ADay<0)
-    {
-        AMonth--;
-       MonthDay(ADay);
-    }
-int MonthDay(int ADay)
+int AMonth = 2 - month;
+if (AMonth < 0)
 {
-    if ((month == 1) || (month == 3) || (month == 5) || (month == 7) || (month == 8) || (month == 10) || (month == 12))
+    AMonth = AMonth + 12;
+    AYear--;
+}
+int ADay = 1 - day;
+if (ADay < 0)
+{
+    AMonth--;
+    MonthDay(ADay);
+}
+int MonthDay(int month)
+{
+    switch (month)
     {
-        ADay+=31;
-    return ADay;
-    }
-    if ((month==4)||(month == 6)||(month == 9) || (month == 11)) 
-    {
-        ADay+=30;
-    return ADay;
-    }
-    if (month==2) 
-    {
-        ADay+=28;
-    return ADay;
-    }
-    else 
-    {
-        return ADay;
+        case 1:
+        case 3:
+        case 5:
+        case 7:
+        case 8:
+        case 10:
+        case 12:
+            return 31;
+        case 2: 
+            return 28;
+        default: 
+            return 30;
     }
 }
 
-Console.WriteLine("Ваш возраст на 01.02.2022: " + AYear + " лет, "+AMonth + " месяца(ев), " +  ADay + " дня(ей).");
+Console.WriteLine("Ваш возраст на 01.02.2022: " + AYear + " лет, " + AMonth + " месяца(ев), " + ADay + " дня(ей).");
 
