@@ -1,100 +1,57 @@
 ﻿// Задача 58: Задайте две матрицы. Напишите программу, которая будет находить произведение двух матриц.
 
-int rows = 3;
-int colums = 3;
-int[,] arrayFirst = new int[rows, colums];
-FillArrayFirst();
-int[,] arraySecond = new int[rows, colums];
-FillArraySecond();
-int[,] arraySecondReverse = new int[rows, colums];
-FillArraySecondReverse();
-int[,] arrayMultiplication = new int[rows, colums];
-FillArrayMultiplication();
+var rd = new Random();
+int[,] matrix = new int[rd.Next(2,4), rd.Next(2,4)];
+FillArray(matrix);
+int[,] matrix2 = new int[rd.Next(2,4),rd.Next(2,4)];
+FillArray(matrix2);
+if (matrix.GetLength(0) == matrix2.GetLength(1))
+{
+    FillArrayMultiplication(matrix,matrix2);
+}
+else Console.WriteLine("Невозможно найти произведение матриц");
 
-void FillArrayFirst()
+void FillArray(int[,] matrix)
 {
     Random rand = new Random();
-    for (int i = 0; i < rows; i++)
+    for (int i = 0; i < matrix.GetLength(0); i++)
     {
-        for (int j = 0; j < colums; j++)
+        for (int j = 0; j <  matrix.GetLength(1); j++)
         {
-            arrayFirst[i, j] = rand.Next(0, 4);
+            matrix[i, j] = rand.Next(0, 4);
         }
+        Console.WriteLine();
     }
-    PrintArray();
+    PrintArray(matrix);
     Console.WriteLine(" ");
 }
-void FillArraySecond()
+
+void PrintArray(int[,] matrix)
 {
-    Random rand = new Random();
-    for (int i = 0; i < rows; i++)
+    for (int i = 0; i < matrix.GetLength(0); i++)
     {
-        for (int j = 0; j < colums; j++)
+        for (int j = 0; j <  matrix.GetLength(1); j++)
         {
-            arraySecond[i, j] = rand.Next(0, 4);
-        }
-    }
-    PrintArraySecond();
-}
-void FillArraySecondReverse()
-{
-    for (int j = 0; j < rows; j++)
-    {
-        for (int i = 0; i < colums; i++)
-        {
-            arraySecondReverse[i, j] = arraySecond[j, i];
-        }
-    }
-}
-void PrintArray()
-{
-    for (int i = 0; i < rows; i++)
-    {
-        for (int j = 0; j < colums; j++)
-        {
-            Console.Write(arrayFirst[i, j] + " ");
+            Console.Write(matrix[i, j] + " ");
         }
         Console.WriteLine();
     }
 }
-void PrintArraySecond()
-{
-    for (int i = 0; i < rows; i++)
-    {
-        for (int j = 0; j < colums; j++)
-        {
-            Console.Write(arraySecond[i, j] + " ");
-        }
-        Console.WriteLine();
-    }
-}
-void FillArrayMultiplication()
+
+void FillArrayMultiplication(int[,] matrix,int[,] matrix2)
 {
     Console.WriteLine("Матрица произведений");
-    int summ = 0;
-    for (int i = 0; i < rows; i++)
+    int[,] arrayMultiplication = new int[matrix.GetLength(0), matrix2.GetLength(1)];
+    for (int i = 0; i < matrix.GetLength(1); i++)
     {
-        for (int j = 0; j < colums; j++)
+        for (int j = 0; j < matrix2.GetLength(0); j++)
         {
-            summ = 0;
-            for (int k = 0; k < colums; k++)
+            arrayMultiplication[i, j] = 0;
+            for (int k = 0; k < matrix.GetLength(1); k++)
             {
-                summ += arraySecondReverse[i, j] * arrayFirst[i, j];
+                arrayMultiplication[i, j] += matrix[i, k]* matrix2[k, j];
             }
-            arrayMultiplication[i, j] = summ;
         }
-        Console.WriteLine();
     }
-    PrintArrayMultiplication();
-}
-void PrintArrayMultiplication()
-{
-    for (int i = 0; i < rows; i++)
-    {
-        for (int j = 0; j < colums; j++)
-        {
-            Console.Write(arrayMultiplication[i, j] + " ");
-        }
-        Console.WriteLine();
-    }
+    PrintArray(arrayMultiplication);
 }

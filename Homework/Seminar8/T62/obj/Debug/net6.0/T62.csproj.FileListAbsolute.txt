@@ -1,0 +1,15 @@
+C:\Users\shymk\OneDrive\Рабочий стол\C#\Homework\Seminar8\T62\bin\Debug\net6.0\T62.exe
+C:\Users\shymk\OneDrive\Рабочий стол\C#\Homework\Seminar8\T62\bin\Debug\net6.0\T62.deps.json
+C:\Users\shymk\OneDrive\Рабочий стол\C#\Homework\Seminar8\T62\bin\Debug\net6.0\T62.runtimeconfig.json
+C:\Users\shymk\OneDrive\Рабочий стол\C#\Homework\Seminar8\T62\bin\Debug\net6.0\T62.dll
+C:\Users\shymk\OneDrive\Рабочий стол\C#\Homework\Seminar8\T62\bin\Debug\net6.0\T62.pdb
+C:\Users\shymk\OneDrive\Рабочий стол\C#\Homework\Seminar8\T62\obj\Debug\net6.0\T62.csproj.AssemblyReference.cache
+C:\Users\shymk\OneDrive\Рабочий стол\C#\Homework\Seminar8\T62\obj\Debug\net6.0\T62.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\shymk\OneDrive\Рабочий стол\C#\Homework\Seminar8\T62\obj\Debug\net6.0\T62.AssemblyInfoInputs.cache
+C:\Users\shymk\OneDrive\Рабочий стол\C#\Homework\Seminar8\T62\obj\Debug\net6.0\T62.AssemblyInfo.cs
+C:\Users\shymk\OneDrive\Рабочий стол\C#\Homework\Seminar8\T62\obj\Debug\net6.0\T62.csproj.CoreCompileInputs.cache
+C:\Users\shymk\OneDrive\Рабочий стол\C#\Homework\Seminar8\T62\obj\Debug\net6.0\T62.dll
+C:\Users\shymk\OneDrive\Рабочий стол\C#\Homework\Seminar8\T62\obj\Debug\net6.0\refint\T62.dll
+C:\Users\shymk\OneDrive\Рабочий стол\C#\Homework\Seminar8\T62\obj\Debug\net6.0\T62.pdb
+C:\Users\shymk\OneDrive\Рабочий стол\C#\Homework\Seminar8\T62\obj\Debug\net6.0\T62.genruntimeconfig.cache
+C:\Users\shymk\OneDrive\Рабочий стол\C#\Homework\Seminar8\T62\obj\Debug\net6.0\ref\T62.dll

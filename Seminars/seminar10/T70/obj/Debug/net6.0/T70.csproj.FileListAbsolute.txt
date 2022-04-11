@@ -1,0 +1,15 @@
+C:\Users\shymk\OneDrive\Рабочий стол\C#\Seminars\seminar10\T70\obj\Debug\net6.0\T70.csproj.AssemblyReference.cache
+C:\Users\shymk\OneDrive\Рабочий стол\C#\Seminars\seminar10\T70\obj\Debug\net6.0\T70.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\shymk\OneDrive\Рабочий стол\C#\Seminars\seminar10\T70\obj\Debug\net6.0\T70.AssemblyInfoInputs.cache
+C:\Users\shymk\OneDrive\Рабочий стол\C#\Seminars\seminar10\T70\obj\Debug\net6.0\T70.AssemblyInfo.cs
+C:\Users\shymk\OneDrive\Рабочий стол\C#\Seminars\seminar10\T70\obj\Debug\net6.0\T70.csproj.CoreCompileInputs.cache
+C:\Users\shymk\OneDrive\Рабочий стол\C#\Seminars\seminar10\T70\bin\Debug\net6.0\T70.exe
+C:\Users\shymk\OneDrive\Рабочий стол\C#\Seminars\seminar10\T70\bin\Debug\net6.0\T70.deps.json
+C:\Users\shymk\OneDrive\Рабочий стол\C#\Seminars\seminar10\T70\bin\Debug\net6.0\T70.runtimeconfig.json
+C:\Users\shymk\OneDrive\Рабочий стол\C#\Seminars\seminar10\T70\bin\Debug\net6.0\T70.dll
+C:\Users\shymk\OneDrive\Рабочий стол\C#\Seminars\seminar10\T70\bin\Debug\net6.0\T70.pdb
+C:\Users\shymk\OneDrive\Рабочий стол\C#\Seminars\seminar10\T70\obj\Debug\net6.0\T70.dll
+C:\Users\shymk\OneDrive\Рабочий стол\C#\Seminars\seminar10\T70\obj\Debug\net6.0\refint\T70.dll
+C:\Users\shymk\OneDrive\Рабочий стол\C#\Seminars\seminar10\T70\obj\Debug\net6.0\T70.pdb
+C:\Users\shymk\OneDrive\Рабочий стол\C#\Seminars\seminar10\T70\obj\Debug\net6.0\T70.genruntimeconfig.cache
+C:\Users\shymk\OneDrive\Рабочий стол\C#\Seminars\seminar10\T70\obj\Debug\net6.0\ref\T70.dll
