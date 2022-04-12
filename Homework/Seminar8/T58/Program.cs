@@ -42,9 +42,9 @@ void FillArrayMultiplication(int[,] matrix,int[,] matrix2)
 {
     Console.WriteLine("Матрица произведений");
     int[,] arrayMultiplication = new int[matrix.GetLength(0), matrix2.GetLength(1)];
-    for (int i = 0; i < matrix.GetLength(1); i++)
+    for (int i = 0; i < matrix.GetLength(0); i++)
     {
-        for (int j = 0; j < matrix2.GetLength(0); j++)
+        for (int j = 0; j < matrix2.GetLength(1); j++)
         {
             arrayMultiplication[i, j] = 0;
             for (int k = 0; k < matrix.GetLength(1); k++)
