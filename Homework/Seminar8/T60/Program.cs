@@ -5,15 +5,15 @@ int length = 3;
 FillArray();
 void FillArray()
 {
-    DateTime dt = new DateTime();
-    var random = new Random((int)dt.Ticks);
+    int n = 10;
     for (int i = 0; i <length; i++)
     {
         for (int j = 0; j < length; j++)
         {
             for (int k = 0; k < length; k++)
             {
-                array[i,j,k] = random.Next(10,100);
+                array[i,j,k] = n+1;
+                n++;
             }
         }
     }
